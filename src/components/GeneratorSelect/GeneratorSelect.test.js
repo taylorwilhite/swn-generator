@@ -6,5 +6,5 @@ import { GeneratorSelect } from ".";
 it('renders without crashing', () => {
   const generators = ['one', 'two'];
   const div = document.createElement('div');
-  ReactDOM.render(<GeneratorSelect generators={generators} />, div)
+  ReactDOM.render(<GeneratorSelect generators={generators} value={ generators[0] } />, div)
 })

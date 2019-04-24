@@ -1,10 +1,12 @@
 import React from "react";
+import Select from '@material-ui/core/Select';
+import MenuItem from '@material-ui/core/MenuItem';
 
 export function GeneratorSelect(props) {
   const generators = props.generators.map(generator =>
-    <option key={ generator } value={ generator }>{ generator }</option>
+    <MenuItem key={ generator } value={ generator }>{ generator }</MenuItem>
   );
   return (
-    <select onChange={props.onChange}>{ generators }</select>
+    <Select value={props.value} autoWidth={ true } onChange={props.onChange}>{ generators }</Select>
   )
 }
