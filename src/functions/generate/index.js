@@ -1,4 +1,4 @@
-import { generateAdventure } from "../generateAdventure";
+import { generateProblem } from "../generateProblem";
 import { generatePerson } from "../generatePerson";
 import { generatePlace } from "../generatePlace";
 
@@ -6,8 +6,8 @@ export const generate = (type) => {
   let func
   let param
   switch (type) {
-    case 'Adventure':
-      func = generateAdventure;
+    case 'Problem':
+      func = generateProblem;
       break;
     case 'Person':
       func = generatePerson;

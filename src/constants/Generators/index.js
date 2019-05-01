@@ -1,5 +1,5 @@
 export const Generators = [
-  'Adventure',
+  'Problem',
   'Person',
   'Civilized Place',
   'Wild Place'

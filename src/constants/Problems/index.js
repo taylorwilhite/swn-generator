@@ -1,4 +1,4 @@
-export const Adventure = {
+export const Problem = {
   1: {
     situation: {
       1: "Money is owed to a ruthless creditor",

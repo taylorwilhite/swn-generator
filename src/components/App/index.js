@@ -7,7 +7,7 @@ import Button from '@material-ui/core/Button';
 
 export const App = () => {
   const [generated, setGenerated] = useState("");
-  const [generatorType, setGeneratorType] = useState({ type: 'Adventure'});
+  const [generatorType, setGeneratorType] = useState({ type: 'Problem'});
   return (
     <div className="App">
       <h1>SWN GENERATOR</h1>
