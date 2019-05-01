@@ -19,8 +19,5 @@ export const generateAdventure = () => {
   const focus = Adventure[area]["focus"][d5.roll()];
   const restraint = Restraint[d20.roll()];
   const twist = Twist[d20.roll()];
-  return {
-    sitch: `${situation} AND ${focus}`,
-    setup: `${restraint} BUT ${twist}`
-  };
+  return `${situation} AND ${focus}. ${restraint}. The Twist? ${twist}.`
 };

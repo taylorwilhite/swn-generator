@@ -19,9 +19,5 @@ export const generateNPC = () => {
   const power = Power[d20.roll()];
   const hook = Hook[d20.roll()];
 
-  return {
-    sitch: `Initial Manner: ${manner}\nDefault deal outcome: ${outcome}\nTheir motivation: ${motivation}`,
-    setup: `Their want: ${want}\nTheir power: ${power}\nTheir Hook: ${hook}`
-  }
-
+  return `They are ${manner}. Their motivation is ${motivation} and they want the PCs to ${want}. ${power} and ${outcome}. ${hook}`
 }
