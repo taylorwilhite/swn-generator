@@ -10,5 +10,5 @@ export const generatePerson = () => {
   const power = Power[d20.roll()];
   const hook = Hook[d20.roll()];
 
-  return `They are ${manner}. Their motivation is ${motivation} and they want the PCs to ${want}. ${power} and ${outcome}. ${hook}`
+  return `Their attitude is ${manner}. Their motivation is ${motivation} and they want the PCs to ${want}. ${power} and ${outcome}. ${hook}`
 }
