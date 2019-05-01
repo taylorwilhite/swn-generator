@@ -1,14 +1,5 @@
 import { Adventure, Restraint, Twist } from "../../constants/Adventures";
-
-class Die {
-  constructor(sides) {
-    this.sides = sides;
-  }
-  roll() {
-    const result = Math.floor(Math.random() * this.sides) + 1;
-    return result;
-  }
-}
+import { Die } from "../../classes/Die";
 
 export const generateAdventure = () => {
   const d8 = new Die(8);

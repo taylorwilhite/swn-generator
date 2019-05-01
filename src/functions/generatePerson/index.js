@@ -1,14 +1,5 @@
 import { Manner, Outcome, Motivation, Want, Power, Hook } from '../../constants/People';
-
-class Die {
-  constructor(sides) {
-    this.sides = sides;
-  }
-  roll() {
-    const result = Math.floor(Math.random() * this.sides) + 1;
-    return result;
-  }
-}
+import { Die } from '../../classes/Die';
 
 export const generatePerson = () => {
   const d20 = new Die(20);
