@@ -1,5 +1,5 @@
 import { generateAdventure } from "../generateAdventure";
-import { generateNPC } from "../generateNPC";
+import { generatePerson } from "../generatePerson";
 
 export const generate = (type) => {
   let func
@@ -7,8 +7,8 @@ export const generate = (type) => {
     case 'Adventure':
       func = generateAdventure;
       break;
-    case 'NPC':
-      func = generateNPC;
+    case 'Person':
+      func = generatePerson;
       break;
   }
 

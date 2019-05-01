@@ -1,4 +1,4 @@
 export const Generators = [
   'Adventure',
-  'NPC'
+  'Person'
 ]

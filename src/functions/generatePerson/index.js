@@ -1,4 +1,4 @@
-import { Manner, Outcome, Motivation, Want, Power, Hook } from '../../constants/NPCs';
+import { Manner, Outcome, Motivation, Want, Power, Hook } from '../../constants/People';
 
 class Die {
   constructor(sides) {
@@ -10,7 +10,7 @@ class Die {
   }
 }
 
-export const generateNPC = () => {
+export const generatePerson = () => {
   const d20 = new Die(20);
   const manner = Manner[d20.roll()];
   const outcome = Outcome[d20.roll()];
