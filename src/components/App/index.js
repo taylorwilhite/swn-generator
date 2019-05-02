@@ -20,7 +20,7 @@ export const App = () => {
       </Button>
       <div className="logos">
         <a href="https://github.com/taylorwilhite/swn-generator" target="_blank"><GithubLogo className="grayscale icon" /></a>
-        <a href="https://ko-fi.com/tmoneybagels" target="_blank"><img className="grayscale icon" src={kofi} alt="Source Code"/></a>
+        <a href="https://ko-fi.com/tmoneybagels" target="_blank"><img className="grayscale icon" src={kofi} alt="Donate"/></a>
       </div>
     </div>
   );
