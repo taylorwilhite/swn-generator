@@ -22,6 +22,8 @@ export const App = () => {
         <a href="https://github.com/taylorwilhite/swn-generator" target="_blank"><GithubLogo className="grayscale icon" /></a>
         <a href="https://ko-fi.com/tmoneybagels" target="_blank"><img className="grayscale icon" src={kofi} alt="Donate"/></a>
       </div>
+      <p>Created by Taylor Wilhite</p>
+      <p>Based on content from Stars Without Number: Revised Edition by Kevin Crawford</p>
     </div>
   );
 }
