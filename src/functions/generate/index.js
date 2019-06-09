@@ -1,6 +1,7 @@
 import { generateProblem } from "../generateProblem";
 import { generatePerson } from "../generatePerson";
 import { generatePlace } from "../generatePlace";
+import {generateNPC} from "../generateNPC";
 
 export const generate = (type) => {
   let func
@@ -11,6 +12,9 @@ export const generate = (type) => {
       break;
     case 'Person':
       func = generatePerson;
+      break;
+    case 'NPC':
+      func = generateNPC;
       break;
     case 'Civilized Place':
       func = generatePlace;
