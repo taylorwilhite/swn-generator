@@ -23,7 +23,7 @@ export const Opposition = {
   2: "An open and known enemy of the patron",
   3: "Official government meddling",
   4: "An unknown rival of the patron",
-  5: "The macguffin itself opposes them",
+  5: "The macguffin itself",
   6: "Very short time frame allowed",
   7: "The job is spectacularly illegal",
   8: "A participant would profit by their failure",

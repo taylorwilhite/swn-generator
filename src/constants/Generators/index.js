@@ -4,4 +4,5 @@ export const Generators = [
   'Civilized Place',
   'Wild Place',
   'NPC',
+  'Patron',
 ]
