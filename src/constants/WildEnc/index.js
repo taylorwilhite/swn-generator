@@ -1,21 +1,21 @@
 export const Weather = {
-  1: "Takes place in daylight and clear weather",
+  1: "Daylight and clear weather",
   2: "Daylight, but fog, mist, rain or the like",
   3: "Daylight, but harsh seasonal weather",
-  4: "Night encounter, but clear weather",
+  4: "Night, but clear weather",
   5: "Night with other obscuring effects",
   6: "Night, with terrible weather and wind",
 }
 
 export const Nature = {
-  1: "Attack by a pack of hostiles",
-  2: "Ambush by single lone hostile",
-  3: "Meet people who don't want to be met",
-  4: "Encounter people in need of aid",
-  5: "Encounter hostile creatures",
-  6: "Nearby feature is somehow dangerous",
-  7: "Nearby feature promises useful loot",
-  8: "Meet hostiles that aren’t immediately so",
+  1: "An attack by a pack of hostiles",
+  2: "An ambush by single lone hostile",
+  3: "People who don't want to be met",
+  4: "People in need of aid",
+  5: "Hostile creatures",
+  6: "Nearby feature that is somehow dangerous",
+  7: "Nearby feature that promises useful loot",
+  8: "Hostiles that aren’t immediately so",
 }
 
 export const Friendly = {

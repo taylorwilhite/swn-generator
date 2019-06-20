@@ -4,6 +4,7 @@ import { generatePlace } from "../generatePlace";
 import {generateNPC} from "../generateNPC";
 import { generatePatron } from "../generatePatron";
 import { generateUrbanEnc } from "../generateUrbanEnc";
+import { generateWildEnc } from "../generateWildEnc";
 
 export const generate = (type) => {
   let func
@@ -31,6 +32,9 @@ export const generate = (type) => {
       break;
     case 'Urban Encounter':
       func = generateUrbanEnc;
+      break;
+    case 'Wild Encounter':
+      func = generateWildEnc;
       break;
   }
 
