@@ -53,7 +53,7 @@ export const Antagonist = {
   12: "A confused foreigner or backwoodsman",
 }
 
-export const Features = {
+export const Feature = {
   1: "Heavy traffic running through the place",
   2: "Music blaring at deafening volumes",
   3: "Two groups present that detest each other",
