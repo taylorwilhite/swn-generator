@@ -19,11 +19,11 @@ export const App = () => {
         Generate { generatorType.type }
       </Button>
       <div className="logos">
-        <a href="https://github.com/taylorwilhite/swn-generator" target="_blank"><GithubLogo className="grayscale icon" /></a>
-        <a href="https://ko-fi.com/tmoneybagels" target="_blank"><img className="grayscale icon" src={kofi} alt="Donate"/></a>
+        <a href="https://github.com/taylorwilhite/swn-generator" target="_blank" rel="noopener noreferrer"><GithubLogo className="grayscale icon" /></a>
+        <a href="https://ko-fi.com/tmoneybagels" target="_blank" rel="noopener noreferrer"><img className="grayscale icon" src={kofi} alt="Donate"/></a>
       </div>
-      <p>Created by Taylor Wilhite</p>
-      <p>Based on content from Stars Without Number: Revised Edition by Kevin Crawford</p>
+      <p>Created by <a href="https://taylorwilhite.com" target="_blank" rel="noopener noreferrer">Taylor Wilhite</a></p>
+      <p>Based on content from <a href="https://www.drivethrurpg.com/product/226996/Stars-Without-Number-Revised-Edition" target="_blank" rel="noopener noreferrer">Stars Without Number: Revised Edition</a> by Kevin Crawford</p>
     </div>
   );
 }
