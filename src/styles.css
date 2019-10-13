@@ -33,17 +33,6 @@ body {
   color: #333;
 }
 
-.form-hidden {
-  height: 0px;
-  overflow: hidden;
-  transition: all 1s linear;
-}
-
-.form-display {
-  height: unset;
-  transition: all 1s linear;
-}
-
 .suggestion-form {
   max-width: 600px;
   margin: 20px auto;

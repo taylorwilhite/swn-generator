@@ -1,5 +1,5 @@
 import React, { useReducer } from 'react';
-import { Button, TextField } from '@material-ui/core';
+import { Button, TextField, Collapse } from '@material-ui/core';
 
 const encode = (data) => {
   return Object.keys(data)
@@ -45,12 +45,14 @@ export const ContactForm = (props) => {
       <Button onClick={ () => dispatch({ type: 'display' }) }>
         { formState.display ? 'Hide' : 'Show'} Suggestion Form
       </Button>
-      <form name="contact" method="POST" className={formState.display ? 'form-display' : 'form-hidden'}>
-        <input type="hidden" name="form-name" value="contact" />
-        <TextField name="name" fullWidth margin="normal" className="suggestion-field" label="Name (optional)" value={formState.name} onChange={e => dispatch({type: 'text', data: {name: e.target.value}})} />
-        <TextField name="message" fullWidth margin="normal" className="suggestion-field" required label="Message" value={formState.message} multiline onChange={e => dispatch({type: 'text', data: {message: e.target.value}})} />
-        <Button disabled={!isValidated('message')} className="suggestion-submit" onClick={handleSubmit} color="primary" size="small">Submit</Button>
-      </form>
+      <Collapse in={formState.display}>
+        <form name="contact" method="POST">
+          <input type="hidden" name="form-name" value="contact" />
+          <TextField name="name" fullWidth margin="normal" className="suggestion-field" label="Name (optional)" value={formState.name} onChange={e => dispatch({type: 'text', data: {name: e.target.value}})} />
+          <TextField name="message" fullWidth margin="normal" className="suggestion-field" required label="Message" value={formState.message} multiline onChange={e => dispatch({type: 'text', data: {message: e.target.value}})} />
+          <Button disabled={!isValidated('message')} className="suggestion-submit" onClick={handleSubmit} color="primary" size="small">Submit</Button>
+        </form>
+      </Collapse>
     </div>
   );
 }
