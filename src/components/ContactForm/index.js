@@ -36,6 +36,9 @@ export const ContactForm = (props) => {
       .then(() => alert('Form submitted successfully!'))
       .catch(error => alert(error));
   };
+  const isValidated = (state) => {
+    return formState[state] !== '';
+  }
 
   return (
     <div className="suggestion-form">
@@ -46,7 +49,7 @@ export const ContactForm = (props) => {
         <input type="hidden" name="form-name" value="contact" />
         <TextField name="name" fullWidth margin="normal" className="suggestion-field" label="Name (optional)" value={formState.name} onChange={e => dispatch({type: 'text', data: {name: e.target.value}})} />
         <TextField name="message" fullWidth margin="normal" className="suggestion-field" required label="Message" value={formState.message} multiline onChange={e => dispatch({type: 'text', data: {message: e.target.value}})} />
-        <Button className="suggestion-submit" onClick={handleSubmit} color="primary" size="small">Submit</Button>
+        <Button disabled={!isValidated('message')} className="suggestion-submit" onClick={handleSubmit} color="primary" size="small">Submit</Button>
       </form>
     </div>
   );
