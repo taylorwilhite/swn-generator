@@ -6,6 +6,7 @@ import { generate } from "../../functions/generate";
 import Button from '@material-ui/core/Button';
 import {ReactComponent as GithubLogo} from '../../images/github-brands.svg';
 import kofi from '../../images/Ko-fi_Icon_Blue.png';
+import { ContactForm } from "../ContactForm";
 
 export const App = () => {
   const [generated, setGenerated] = useState("");
@@ -18,6 +19,7 @@ export const App = () => {
       <Button variant="contained" color="primary" onClick={() => setGenerated(generate(generatorType.type))}>
         Generate { generatorType.type }
       </Button>
+      <ContactForm />
       <div className="logos">
         <a href="https://github.com/taylorwilhite/swn-generator" target="_blank" rel="noopener noreferrer"><GithubLogo className="grayscale icon" /></a>
         <a href="https://ko-fi.com/tmoneybagels" target="_blank" rel="noopener noreferrer"><img className="grayscale icon" src={kofi} alt="Donate"/></a>
