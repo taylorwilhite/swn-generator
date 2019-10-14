@@ -33,6 +33,12 @@ body {
   color: #333;
 }
 
+.suggestion-form {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+
 .logos {
   display: flex;
   justify-content: space-between;
