@@ -31,5 +31,5 @@ export const generateNPC = () => {
   const desire = Desire[d12.roll()];
   const trait = Trait[d20.roll()];
 
-  return `They are a ${age} ${role} from ${background()}. ${desire} but ${problem()}, and their primary trait is ${trait}`
+  return `They are ${age} who is ${role} from ${background()}. ${desire} but ${problem()}, and their primary trait is ${trait}`
 }

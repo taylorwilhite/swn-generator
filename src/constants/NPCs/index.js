@@ -1,28 +1,28 @@
 export const Age = {
   1: 'Unusually young or old for their role',
-  2: 'Young Adult',
-  3: 'Mature Prime',
+  2: 'A young Adult',
+  3: 'in their Mature Prime',
   4: 'Middle-aged or Elderly',
 }
 
 export const Background = {
   1: 'The local underclass or poorest natives',
   2: 'Common laborers or cube workers',
-  3: 'Aspiring Bourgeoise or upper class',
+  3: 'The aspiring Bourgeoise or upper class',
   4: 'The elite of this society',
-  5: 'Minority or Foreigners, ',
-  6: 'Offworlders or exotics, ',
+  5: 'a Minority or group of Foreigners, ',
+  6: 'a group of Offworlders or exotics, ',
 }
 
 export const Role = {
-  1: 'Criminal, thug, thief, swindler',
-  2: 'Menial, cleaner, retail worker, servant',
-  3: 'Unskilled heavy labor, porter, construction',
-  4: 'Skilled trade, electrician, mechanic, pilot',
-  5: 'Idea worker, programmer, writer',
-  6: 'Merchant, business owner, trader, banker',
-  7: 'Official, courtier, bureaucrat, clerk',
-  8: 'Military, soldier, enforcer, law officer',
+  1: 'A Criminal, thug, thief, or swindler',
+  2: 'A Menial, cleaner, retail worker, or servant',
+  3: 'An Unskilled heavy labor, porter, or construction worker',
+  4: 'A Skilled tradesman, electrician, mechanic, or pilot',
+  5: 'An Idea worker, programmer, or writer',
+  6: 'A Merchant, business owner, trader, or banker',
+  7: 'An Official, courtier, bureaucrat, or clerk',
+  8: 'A Military, soldier, enforcer, or law officer',
 }
 
 export const Problem = {
