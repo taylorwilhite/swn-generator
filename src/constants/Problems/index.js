@@ -33,11 +33,11 @@ export const Problem = {
   },
   3: {
     situation: {
-      1: "An Influential political leader",
-      2: "A stern community elder",
-      3: "A ruling patriarch of a large family",
-      4: "A star expert in a particular industry",
-      5: "A criminal boss or outcast leader"
+      1: "There's an Influential political leader",
+      2: "There's a stern community elder",
+      3: "There's a ruling patriarch of a large family",
+      4: "There's a star expert in a particular industry",
+      5: "There's a criminal boss or outcast leader"
     },
     focus: {
       1: "They've betrayed their own",
@@ -51,7 +51,7 @@ export const Problem = {
     situation: {
       1: "A cyclical planetary phenomenon",
       2: "A sudden natural disaster",
-      3: "Sudden loss of vital infrastructure",
+      3: "A sudden loss of vital infrastructure",
       4: "Catastrophe from outside meddling",
       5: "Formerly-unknown planetary peril"
     },
@@ -72,10 +72,10 @@ export const Problem = {
       5: "Corrupt and decadent institutions"
     },
     focus: {
-      1: "Charismatic new leader",
+      1: "A charismatic new leader",
       2: "Mandatory state religion",
       3: "Heavy foreign influence",
-      4: "Religious purging underway",
+      4: "There's religious purging underway",
       5: "Fighting for holy ground"
     }
   },
@@ -85,10 +85,10 @@ export const Problem = {
       2: "Terrorists with widespread support",
       3: "A political party’s goon squads",
       4: "Dead-end former regime supporters",
-      5: "Ruthless ascendant political group"
+      5: "A Ruthless ascendant political group"
     },
     focus: {
-      1: "Terrorist attack",
+      1: "A terrorist attack",
       2: "Street rioting",
       3: "Police state crackdown",
       4: "Forced Expulsions",

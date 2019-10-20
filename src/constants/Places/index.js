@@ -26,7 +26,7 @@ export const Civil = {
   3: "A Minor fire or other disorder",
   4: "Merchants and peddlers active",
   5: "Tourists from another country",
-  6: "Building repair or maintenance",
+  6: "active building repair or maintenance",
   7: "A recent vehicle crash",
   8: "A Public art performance",
   9: "An angry traffic jam",
@@ -44,7 +44,7 @@ export const Civil = {
 }
 export const Wild = {
   1: "Bandits have moved in",
-  2: "Flooding swept through",
+  2: "Flooding has swept through",
   3: "Part of it has collapsed",
   4: "Refugees are hiding here",
   5: "Dangerous animals lair here",
@@ -75,20 +75,20 @@ export const Hazard = {
       5: "A frame job hung on the PCs",
     },
     danger: {
-      1: "An allied NPC breaks ties",
-      2: "An enemy is alerted to them",
-      3: "A new enemy is made",
-      4: "Cads think the PCs are allies",
-      5: "An opportunity is lost",
+      1: "An allied NPC breaking ties",
+      2: "An enemy being alerted to them",
+      3: "A new enemy being made",
+      4: "Cads thinking the PCs are allies",
+      5: "An opportunity being lost",
     }
   },
   2: {
     hazard: {
       1: "A regulation unknown to the PCs",
       2: "A tax or confiscation",
-      3: "Vital gear is prohibited here",
+      3: "Vital gear being prohibited here",
       4: "A Lawsuit from an aggrieved NPC",
-      5: "A state agent conscripts PC help",
+      5: "A state agent conscripting PC help",
     },
     danger: {
       1: "A Substantial monetary fine",
@@ -111,7 +111,7 @@ export const Hazard = {
       2: "Suffering bodily harm",
       3: "Taking a penalty on rolls",
       4: "Losing some equipment",
-      5: "Psychic abilities are altered",
+      5: "Psychic abilities being altered",
     }
   },
   4: {
@@ -124,26 +124,26 @@ export const Hazard = {
     },
     danger: {
       1: "Something set on fire",
-      2: "Guards are summoned",
+      2: "Guards being summoned",
       3: "Falling to a new area",
-      4: "Equipment is damaged",
-      5: "Subject is injured",
+      4: "Equipment being damaged",
+      5: "Subject being injured",
     }
   },
   5: {
     hazard: {
       1: "Dangerous local swarm vermin",
       2: "A big predator lair",
-      3: "Pack hunters haunt the area",
+      3: "Pack hunters haunting the area",
       4: "Flying threats pounce here",
       5: "A Monstrous beast sleeps or is torpid",
     },
     danger: {
-      1: "They have a ranged attack",
-      2: "They’re venomous",
-      3: "Dangerously coordinated foe",
-      4: "Killing them inflicts a fine",
-      5: "Their deaths cause an effect",
+      1: "Their ranged attack",
+      2: "The creature being venomous",
+      3: "A dangerously coordinated foe",
+      4: "Killing them and inflicting a fine",
+      5: "Their deaths causing an effect",
     }
   },
   6: {
@@ -158,8 +158,8 @@ export const Hazard = {
       1: "Immediate combat",
       2: "A treacherous feigned friend",
       3: "Leading the PCs into a trap",
-      4: "Demanding payment or loot",
-      5: "Activated other area defenses",
+      4: "Them demanding payment or loot",
+      5: "Activating other area defenses",
     }
   },
   7: {
@@ -168,22 +168,22 @@ export const Hazard = {
       2: "Waste or heating tubes rupturing",
       3: "Dangerous standing liquid",
       4: "Maintenance robots gone haywire",
-      5: "A Power plant is unstable",
+      5: "A Power plant being unstable",
     },
     danger: {
-      1: "Ruptures to release a peril",
+      1: "Ruptures that release a peril",
       2: "Toxic or radioactive debris",
       3: "Explosive decompression",
-      4: "Invisible or slow-acting toxin",
+      4: "release of invisible or slow-acting toxin",
       5: "Fires or explosions",
     }
   },
   8: {
     hazard: {
-      1: "Activating a system causes a disaster",
+      1: "Activating a system causing a disaster",
       2: "A catastrophic plan proposed by NPCs",
-      3: "Removing loot triggers defenses",
-      4: "Handling an object ruins it",
+      3: "Removing loot triggering defenses",
+      4: "Handling an object ruining it",
       5: "Leaving a thing open brings calamity",
     },
     danger: {
