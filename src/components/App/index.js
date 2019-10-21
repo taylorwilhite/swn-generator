@@ -4,6 +4,7 @@ import { Generators } from "../../constants/Generators";
 import { GeneratorSelect } from "../GeneratorSelect";
 import { generate } from "../../functions/generate";
 import { GenerateButton } from "../GenerateButton";
+import Switch from "@material-ui/core/Switch";
 import {ReactComponent as GithubLogo} from '../../images/github-brands.svg';
 import kofi from '../../images/Ko-fi_Icon_Blue.png';
 import { ContactForm } from "../ContactForm";
@@ -11,10 +12,13 @@ import { ContactForm } from "../ContactForm";
 export const App = () => {
   const [generated, setGenerated] = useState("");
   const [generatorType, setGeneratorType] = useState({ type: 'Problem'});
+  const [colorText, setColorText] = useState(false);
+
   return (
     <div className="App">
       <h1>SWN GENERATOR</h1>
       <GeneratorSelect value={ generatorType.type } generators={ Generators } onChange={(e) => setGeneratorType({type: e.target.value})} />
+      <Switch onChange={(e) => setColorText(e.target.checked)} value="colorText" />
       <h2>{generated}</h2>
       <GenerateButton onClick={() => setGenerated(generate(generatorType.type))}>
         Generate { generatorType.type }
